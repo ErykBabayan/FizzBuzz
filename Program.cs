@@ -14,22 +14,11 @@ namespace FizzBuzz_PD1
         {
             FizzBuzz fizzOrBuzz = new FizzBuzz();
 
-
-            
-            
-            
-
             Console.WriteLine("Wprowadź liczbe: ");
             string userInputNumber = Console.ReadLine();
             Console.WriteLine( fizzOrBuzz.CheckFizzOrBuzz(userInputNumber) ); 
 
-
-            
-
         }
-
-
-
 
     }
 }
